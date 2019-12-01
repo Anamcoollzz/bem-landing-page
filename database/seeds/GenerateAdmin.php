@@ -13,9 +13,9 @@ class GenerateAdmin extends Seeder
     public function run()
     {
         User::updateOrCreate([
-        	'email'		=> 'admin@admin.com',
+        	'email'		=> 'admin@bemfasilkom.com',
         ], [
-        	'nama'		=> 'Hairul Anam',
+        	'nama'		=> 'Admin BEM Fasilkom',
         	'password'	=> bcrypt('admin'),
         ]);
     }

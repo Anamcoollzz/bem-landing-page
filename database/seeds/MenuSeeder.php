@@ -12,26 +12,48 @@ class MenuSeeder extends Seeder
      */
     public function run()
     {
+        $id = 1;
         Menu::updateOrCreate([
-        	'nama'	=> 'Dasbor',
+        	'id'	=> $id++,
         ], [
-        	'id'	=> 1,
+        	'nama'	=> 'Dasbor',
         	'ikon'	=> 'fa fa-dashboard',
         	'route'	=> 'dasbor',
         ]);
         Menu::updateOrCreate([
-        	'nama'	=> 'Artikel',
+        	'id'	=> $id++,
         ], [
-        	'id'	=> 2,
-        	'ikon'	=> 'fa fa-edit',
-        	'route'	=> 'artikel.index',
+        	'nama'	=> 'Periode',
+        	'ikon'	=> 'fa fa-clock-o',
+        	'route'	=> 'periode.index',
         ]);
         Menu::updateOrCreate([
-        	'nama'	=> 'Kajian Strategis',
+            'id'    => $id++,
         ], [
-        	'id'	=> 3,
+            'nama'  => 'Anggota',
+            'ikon'  => 'fa fa-users',
+            'route' => 'anggota.index',
+        ]);
+        Menu::updateOrCreate([
+            'id'    => $id++,
+        ], [
+            'nama'  => 'Artikel',
+            'ikon'  => 'fa fa-edit',
+            'route' => 'artikel.index',
+        ]);
+        Menu::updateOrCreate([
+        	'id'	=> $id++,
+        ], [
+        	'nama'	=> 'Kajian Strategis',
         	'ikon'	=> 'fa fa-th',
         	'route'	=> 'kajian-strategis.index',
+        ]);
+        Menu::updateOrCreate([
+            'id'    => $id++,
+        ], [
+            'nama'  => 'Lihat Web',
+            'ikon'  => 'fa fa-globe',
+            'route' => 'beranda',
         ]);
     }
 }

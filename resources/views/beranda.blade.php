@@ -48,12 +48,12 @@
 					<img class="img-fluid" src="img/about-img.png" alt="">
 				</div>
 				<div class="col-lg-5 col-md-6 home-about-right">
-					<h6>About Me</h6>
-					<h1 class="text-uppercase">Personal Details</h1>
+					<h6>BEM FASILKOM</h6>
+					<h1 class="text-uppercase">Kabinet Ganesha</h1>
 					<p>
-						Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque blanditiis possimus laboriosam soluta quam repellat sequi porro aperiam expedita dolorum molestias neque esse, optio error, labore inventore. Nostrum, animi, delectus.
 					</p>
-					<a href="#" class="primary-btn text-uppercase">View Full Details</a>
+					<a href="{{ route('visi-misi') }}" class="primary-btn text-uppercase">Selengkapnya</a>
 				</div>
 			</div>
 		</div>	
@@ -66,8 +66,8 @@
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content  col-lg-7">
 					<div class="title text-center">
-						<h1 class="mb-10">My Offered Services</h1>
-						<p>At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.</p>
+						<h1 class="mb-10">Divisi</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos sed quos ipsa saepe ducimus nostrum quaerat. Voluptatem sapiente ullam molestiae deserunt perspiciatis iure rem odit impedit. Quaerat omnis dolores eligendi..</p>
 					</div>
 				</div>
 			</div>						
@@ -75,7 +75,7 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="single-services">
 						<span class="lnr lnr-pie-chart"></span>
-						<a href="#"><h4>Web Design</h4></a>
+						<a href="#"><h4>Divisi 1</h4></a>
 						<p>
 							“It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.”
 						</p>
@@ -84,7 +84,7 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="single-services">
 						<span class="lnr lnr-laptop-phone"></span>
-						<a href="#"><h4>Web Development</h4></a>
+						<a href="#"><h4>Divisi 2</h4></a>
 						<p>
 							If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like the wind, opinions.
 						</p>
@@ -93,7 +93,7 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="single-services">
 						<span class="lnr lnr-camera"></span>
-						<a href="#"><h4>Photography</h4></a>
+						<a href="#"><h4>Divisi 3</h4></a>
 						<p>
 							Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills.
 						</p>
@@ -102,7 +102,7 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="single-services">
 						<span class="lnr lnr-picture"></span>
-						<a href="#"><h4>Clipping Path</h4></a>
+						<a href="#"><h4>Divisi 4</h4></a>
 						<p>
 							Hypnosis quit smoking methods maintain caused quite a stir in the medical world over the last two decades. There is a lot of argument.
 						</p>
@@ -111,7 +111,7 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="single-services">
 						<span class="lnr lnr-tablet"></span>
-						<a href="#"><h4>Apps Interface</h4></a>
+						<a href="#"><h4>Divisi 5</h4></a>
 						<p>
 							Do you sometimes have the feeling that you’re running into the same obstacles over and over again? Many of my conflicts.
 						</p>
@@ -120,7 +120,7 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="single-services">
 						<span class="lnr lnr-rocket"></span>
-						<a href="#"><h4>Graphic Design</h4></a>
+						<a href="#"><h4>Divisi 6</h4></a>
 						<p>
 							You’ve heard the expression, “Just believe it and it will come.” Well, technically, that is true, however, ‘believing’ is not just thinking that.
 						</p>
@@ -136,20 +136,20 @@
 		<div class="container">				
 			<div class="row">
 				<div class="col-lg-3 col-md-6 single-fact">
-					<h1 class="counter">2536</h1>
-					<p>Projects Completed</p>
+					<h1 class="counter">40</h1>
+					<p>Anggota</p>
 				</div>
 				<div class="col-lg-3 col-md-6 single-fact">
-					<h1 class="counter">6784</h1>
-					<p>Happy Clients</p>
+					<h1 class="counter">50</h1>
+					<p>Artikel</p>
 				</div>
 				<div class="col-lg-3 col-md-6 single-fact">
-					<h1 class="counter">2239</h1>
-					<p>Cups of Coffee</p>
+					<h1 class="counter">60</h1>
+					<p>Kajian Strategis</p>
 				</div>	
 				<div class="col-lg-3 col-md-6 single-fact">
-					<h1 class="counter">435</h1>
-					<p>Real Professionals</p>
+					<h1 class="counter">100</h1>
+					<p>Alumni</p>
 				</div>												
 			</div>
 		</div>	
@@ -157,7 +157,7 @@
 	<!-- end fact Area -->	
 
 	<!-- Start portfolio-area Area -->
-	<section class="portfolio-area section-gap" id="portfolio">
+	{{-- <section class="portfolio-area section-gap" id="portfolio">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-70 col-lg-8">
@@ -287,7 +287,7 @@
 			</div>
 
 		</div>
-	</section>
+	</section> --}}
 	<!-- End portfolio-area Area -->	
 
 	<!-- Start testimonial Area -->
@@ -296,7 +296,7 @@
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-70 col-lg-8">
 					<div class="title text-center">
-						<h1 class="mb-10">Client’s Feedback About Me</h1>
+						<h1 class="mb-10">Quotes</h1>
 						<p>It is very easy to start smoking but it is an uphill task to quit it. Ask any chain smoker or even a person.</p>
 					</div>
 				</div>
@@ -339,82 +339,82 @@
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-70 col-lg-8">
 					<div class="title text-center">
-						<h1 class="mb-10">Choose Your Plan</h1>
+						<h1 class="mb-10">Parlemen</h1>
 						<p>When someone does something that they know that they shouldn’t do, did they.</p>
 					</div>
 				</div>
-			</div>					
+			</div>
 			<div class="row">
 				<div class="col-lg-3 col-md-6 single-price">
 					<div class="top-part">
 						<h1 class="package-no">01</h1>
-						<h4>Economy</h4>
+						<h4>Naranda Ranggi</h4>
 						<p class="mt-10">For the individuals</p>
 					</div>
 					<div class="package-list">
 						<ul>
-							<li>Secure Online Transfer</li>
-							<li>Unlimited Styles for interface</li>
+							<li>2016</li>
+							<li>Sistem Informasi</li>
 							<li>Reliable Customer Service</li>
 						</ul>
 					</div>
 					<div class="bottom-part">
-						<h1>£199.00</h1>
-						<a class="price-btn text-uppercase" href="#">Buy Now</a>
+						<h1>ketua</h1>
+						<a class="price-btn text-uppercase" href="#">Lihat</a>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 single-price">
 					<div class="top-part">
 						<h1 class="package-no">02</h1>
-						<h4>Business</h4>
+						<h4>Nengah Adinda</h4>
 						<p class="mt-10">For the individuals</p>
 					</div>
 					<div class="package-list">
 						<ul>
-							<li>Secure Online Transfer</li>
-							<li>Unlimited Styles for interface</li>
+							<li>2016</li>
+							<li>Sistem Informasi</li>
 							<li>Reliable Customer Service</li>
 						</ul>
 					</div>
 					<div class="bottom-part">
-						<h1>£299.00</h1>
-						<a class="price-btn text-uppercase" href="#">Buy Now</a>
+						<h1>Wakil</h1>
+						<a class="price-btn text-uppercase" href="#">Lihat</a>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 single-price">
 					<div class="top-part">
 						<h1 class="package-no">03</h1>
-						<h4>Premium</h4>
+						<h4>Nita</h4>
 						<p class="mt-10">For the individuals</p>
 					</div>
 					<div class="package-list">
 						<ul>
-							<li>Secure Online Transfer</li>
-							<li>Unlimited Styles for interface</li>
+							<li>2016</li>
+							<li>Sistem Informasi</li>
 							<li>Reliable Customer Service</li>
 						</ul>
 					</div>
 					<div class="bottom-part">
-						<h1>£399.00</h1>
-						<a class="price-btn text-uppercase" href="#">Buy Now</a>
+						<h1>Sekretaris</h1>
+						<a class="price-btn text-uppercase" href="#">Lihat</a>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 single-price">
 					<div class="top-part">
 						<h1 class="package-no">04</h1>
-						<h4>Exclusive</h4>
+						<h4>Mira</h4>
 						<p class="mt-10">For the individuals</p>
 					</div>
 					<div class="package-list">
 						<ul>
-							<li>Secure Online Transfer</li>
-							<li>Unlimited Styles for interface</li>
+							<li>2017</li>
+							<li>Sistem Informasi</li>
 							<li>Reliable Customer Service</li>
 						</ul>
 					</div>
 					<div class="bottom-part">
-						<h1>£499.00</h1>
-						<a class="price-btn text-uppercase" href="#">Buy Now</a>
+						<h1>Bendahara</h1>
+						<a class="price-btn text-uppercase" href="#">Lihat</a>
 					</div>
 				</div>																		
 			</div>
